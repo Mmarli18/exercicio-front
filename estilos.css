@@ -1,27 +1,26 @@
+@charset "UTF-8";
+
 * {
     box-sizing: border-box;
 }
 
 body {
     background-image: url(imagens/fundo01.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0px;
+    margin: auto;
+    width: 90%;
+
 }
 
 #fundo {
-    width: 90%;
     margin: auto;
-    padding: 1%;
     margin: 0px;
-    ba
 }
 
 h1 {
-    font-family: cursive;
+    font-family: 'Arial Narrow Bold', sans-serif;
     background-color: coral;
-    padding: 30px;
-
+    padding: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -29,24 +28,41 @@ h2 {
     font-size: 25px;
 }
 
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
 .centralizar {
     text-align: center;
 }
 
 .caixas {
-    background-color: rgb(192, 189, 189);
+    background-color: rgba(196, 194, 194, 0.603);
     padding: 10px;
     border-radius: 5px;
 }
+a {
+    color: rgb(4, 55, 150);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
 
 ul li::marker {
-    content: "💻";
+    content: "➡️";
 }
 
 ul li {
     color: rgb(77, 75, 74);
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Arial Narrow', Arial, sans-serif
 }
 
 hr {
